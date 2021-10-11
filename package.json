@@ -1,0 +1,28 @@
+{
+  "name": "remark-mdx-images-enhanced",
+  "version": "1.0.0",
+  "description": "A remark plugin for changing image sources to JavaScript imports using MDX and adding width and height",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collegewap/remark-mdx-images-enhanced.git"
+  },
+  "keywords": [
+    "markdown",
+    "mdx",
+    "remark-plugin"
+  ],
+  "author": "Abhishek EH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collegewap/remark-mdx-images-enhanced/issues"
+  },
+  "homepage": "https://github.com/collegewap/remark-mdx-images-enhanced#readme",
+  "dependencies": {
+    "image-size": "^1.0.0",
+    "unist-util-visit": "^4.1.0"
+  }
+}
